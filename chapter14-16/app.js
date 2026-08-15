@@ -85,3 +85,57 @@
 //     var percentage = ( scores [i] / totalMarks ) * 100;
 //     document.write(" scores of " +  studentsName [i] + " is " + scores [i] + " percentage " + percentage +  "% <br>");
 // }
+
+
+
+// // Q9 color array
+
+
+// var colors = ["Red", "Green", "Blue", "Yellow"];
+
+// document.write("Original Array: " + colors + "<br>");
+
+// var color1 = prompt("Enter color to add at beginning:");
+// colors.unshift(color1);
+// document.write("After adding at beginning: " + colors + "<br>");
+
+// var color2 = prompt("Enter color to add at end:");
+// colors.push(color2);
+// document.write("After adding at end: " + colors + "<br>");
+
+// colors.unshift("Pink", "Purple");
+// document.write("After adding two colors: " + colors + "<br>");
+
+// colors.shift();
+// document.write("After deleting first color: " + colors + "<br>");
+
+// colors.pop();
+// document.write("After deleting last color: " + colors + "<br>");
+
+// var index = +prompt("Enter index:");
+// var color3 = prompt("Enter color name:");
+// colors.splice(index, 0, color3);
+// document.write("After adding at index: " + colors + "<br>");
+
+// var deleteIndex = +prompt("Enter index to delete:");
+// var deleteCount = +prompt("How many colors to delete?");
+// colors.splice(deleteIndex, deleteCount);
+
+// document.write("Final Array: " + colors);
+
+
+// Q10  student scores
+
+
+// var scores = [320,230.480,120];
+
+// document.write("scores of students" + scores + "</br>");
+
+// scores.sort(function(a, b) {
+//     return a - b;
+// });
+
+// document.write("ordered scores of student" + scores);
+
+
+// Q11 
