@@ -139,3 +139,44 @@
 
 
 // Q11 
+
+// var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+// var selectedCities = cities.slice(2, 5);
+
+// document.write("Cities list:<br>");
+// document.write(cities + "<br><br>");
+
+// document.write("Selected cities list:<br>");
+// document.write(selectedCities);
+
+// Q 12 
+
+// var queue = [];
+
+// queue.push("This");
+// queue.push("is");
+// queue.push("my");
+// queue.push("cat");
+
+// document.write("Array: " + queue + "<br><br>");
+
+// var result = queue.join(" ");
+
+// document.write("String: " + result);
+
+
+
+// Q13
+
+// let arr = [];
+
+// arr .push("apple");
+// arr .push("banana");
+// arr .push("mango");
+// arr .push("orange");
+
+// console.log(arr.shift());
+// console.log(arr.shift());
+// console.log(arr.shift());
+// console.log(arr.shift());
